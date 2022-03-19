@@ -1,0 +1,8 @@
+FrameWork : I have used nodejs as framework and JavaScript as language to solve this problem
+
+Approach: First of all I loop through the eventData and 
+  I have taken the task and schedule it through the help of nodejs schedular 
+  that takes the task name and time at which the task should run as callback and run that particular event
+  at the particular time . I have used setTimeout() function to make the task sleep for the length of that 
+  task string (in seconds) and once timer expires it appears after that much time period that is equal to the
+  length of the task string.
